@@ -1,4 +1,4 @@
-package day2_4_16;
+package day2_4_16.warmup1;
 
 public class In1020 {
     public boolean in1020(int a, int b) {

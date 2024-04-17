@@ -1,4 +1,4 @@
-package day2_4_16;
+package day2_4_16.warmup1;
 
 public class HasTeen {
     public boolean hasTeen(int a, int b, int c) {
