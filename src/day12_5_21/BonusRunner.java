@@ -41,6 +41,12 @@ public class BonusRunner {
             }
         }
 
+        // extra: don't worry about it too much. same as above using stream
+
+        continents.values().stream()
+                .flatMap(List::stream)
+                .filter(country -> country.getPopulation() < 80)
+                .forEach(country -> System.out.println(country.getName() + " " + country.getPopulation()));
 
         // find the total number of unique languages in each continent
 
